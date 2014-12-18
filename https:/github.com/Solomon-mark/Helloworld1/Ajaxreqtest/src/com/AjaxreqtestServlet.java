@@ -16,7 +16,7 @@ public class AjaxreqtestServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
 	 //If request type is GET 
-		System.out.println("doget..");
+		System.out.println("doget...");
 		dosomethingwithreq(req ,resp);
 	}
 		
